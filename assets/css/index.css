@@ -1,5 +1,5 @@
 body {
-  text-align: center;
+
   margin: 0;
 }
 
@@ -10,4 +10,10 @@ body {
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+}
+nav{
+  text-align: center;
+  font-size: 20px;
+  color: darkred;
+
 }
