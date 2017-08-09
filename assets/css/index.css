@@ -1,19 +1,13 @@
 body {
-
   margin: 0;
 }
 
-
-/* On devices wider than 660px */
-@media(min-width: 660px) {
-}
-
-/* On devices wider than 940px */
-@media(min-width: 940px) {
-}
 li{
   font-size: 20px;
   color: darkred;
+  display: inline;
+  padding-right: 50px;
+
 }
 .main{
   text-align: center;
@@ -27,8 +21,31 @@ p{
 .about{
   border: 2px solid black;
   float: left;
+  margin: 15px 15px 15px 15px;
+  padding:15px 15px 15px 15px;
+  width:250px;
 }
 .mavis{
   border: 2px solid black;
+  float: right;
+  margin: 15px 15px 15px 15px;
+  padding:15px 15px 15px 15px;
+  width:250px;
+}
+.image{
+  border-radius: 20px;
+  width: 1230px;
+}
+
+.body-class {
+  margin: 20px 20px 20px 20px;
+}
+.img{
+  display:inline;
+  border-radius: 50%;
+  width: 100px;
+  height: 200px;
+}
+.nav-list2{
   float: right;
 }
