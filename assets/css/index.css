@@ -11,9 +11,24 @@ body {
 /* On devices wider than 940px */
 @media(min-width: 940px) {
 }
-nav{
-  text-align: center;
+li{
   font-size: 20px;
   color: darkred;
+}
+.main{
+  text-align: center;
+  color: darkred;
 
+}
+p{
+  text-align: justify;
+  color: black;
+}
+.about{
+  border: 2px solid black;
+  float: left;
+}
+.mavis{
+  border: 2px solid black;
+  float: right;
 }
