@@ -11,8 +11,6 @@ li{
 }
 .main{
   text-align: center;
-  color: darkred;
-
 }
 p{
   text-align: justify;
@@ -39,13 +37,46 @@ p{
 
 .body-class {
   margin: 20px 20px 20px 20px;
+  background-color: : lightpink;
 }
 .img{
+  padding: 20px;
   display:inline;
   border-radius: 50%;
-  width: 100px;
-  height: 200px;
+
 }
 .nav-list2{
   float: right;
+}
+.about-box{
+  width: 52%;
+  margin:0 auto;
+}
+h2{
+  color: lightgreen;
+}
+
+h3{
+  text-align: justify;
+}
+.info{
+  text-align: center;
+}
+.contact{
+  border: 2px solid black;
+  float: left;
+  margin: 15px 15px 15px 15px;
+  padding:15px 15px 15px 15px;
+  width:250px;
+}
+.address{
+  border: 2px solid black;
+  float: right;
+  margin: 15px 15px 15px 15px;
+  padding:15px 15px 25px 25px;
+  width:250px;
+}
+.contact-box{
+  width: 52%;
+  margin:0 auto;
 }
