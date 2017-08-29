@@ -1,9 +1,10 @@
 body {
-  margin: 0;
+  margin: 10px 10px 10px 10px;
 }
 
 li{
-  font-size: 20px;
+  font-size: .9em;
+  font: PT Sans Regular;
   color: darkred;
   display: inline;
   padding-right: 50px;
@@ -12,16 +13,25 @@ li{
 .main{
   text-align: center;
 }
+h1{
+  font: PT Sans Narrow Bold;
+  font-size: 1.875em;
+
+}
 p{
   text-align: justify;
   color: black;
+  font: PT Serif Regular;
+  font-size: .875em;
 }
+
 .about{
   border: 2px solid black;
   float: left;
   margin: 15px 15px 15px 15px;
   padding:15px 15px 15px 15px;
   width:250px;
+  background-color:#eeeeee;
 }
 .mavis{
   border: 2px solid black;
@@ -29,21 +39,27 @@ p{
   margin: 15px 15px 15px 15px;
   padding:15px 15px 15px 15px;
   width:250px;
+  background-color:#eeeeee;
 }
 .image{
   border-radius: 20px;
-  width: 1230px;
+  width:100%;
 }
 
 .body-class {
   margin: 20px 20px 20px 20px;
-  background-color: : lightpink;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 .img{
   padding: 20px;
   display:inline;
   border-radius: 50%;
-
+  width: 250px;
+  height: 250px;
 }
 .nav-list2{
   float: right;
@@ -53,14 +69,25 @@ p{
   margin:0 auto;
 }
 h2{
-  color: lightgreen;
+  color: teal;
 }
 
 h3{
-  text-align: justify;
+  text-align: center;
+  width: 660px;
+  margin-left: 289px;
+}
+h4{
+  font: PT Serif Regular;
+  font-size: .875em;
 }
 .info{
   text-align: center;
+  padding-top: 20px;
+}
+.basicinfo{
+  background-color:#eeeeee;
+  height:300px;
 }
 .contact{
   border: 2px solid black;
@@ -68,15 +95,142 @@ h3{
   margin: 15px 15px 15px 15px;
   padding:15px 15px 15px 15px;
   width:250px;
+  background-color: white;
 }
 .address{
   border: 2px solid black;
   float: right;
   margin: 15px 15px 15px 15px;
-  padding:15px 15px 25px 25px;
+  padding:15px 15px 15px 15px;
   width:250px;
+  text-align: center;
+  background-color: white;
+
 }
 .contact-box{
   width: 52%;
   margin:0 auto;
+}
+a{
+  color:orange;
+}
+.map{
+  padding: 20px 0 0 0;
+}
+footer{
+  border: 2px solid teal;
+  color: black;
+  padding:20px;
+  background-color:#00897f;
+  text-align: center;
+  font: PT Sans Narrow Bold;
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    font: PT Sans Narrow Bold;
+    font-size: 0.9em;
+
+  }
+
+  h3{
+    text-align:center;
+    width: 60%;
+    margin-left: 75px;
+    font-size: .5em;
+  }
+  .about-box{
+    width: 52%;
+    margin:0 auto;
+    padding: inherit;
+    height: 50%
+  }
+  .about{
+    border: 2px solid black;
+    float: right;
+    margin: 15px 15px 15px 15px;
+    padding:15px 15px 15px 15px;
+    width:60%;
+    background-color:#eeeeee;
+    height: 40%;
+  }
+  .mavis{
+    border: 2px solid black;
+    float: right;
+    margin: 15px 15px 15px 15px;
+    padding:15px 15px 15px 15px;
+    width:60%;
+    background-color:#eeeeee;
+    height: 40%;
+  }
+  h2{
+    color: teal;
+    font-size: .1em;
+  }
+  h4{
+    font: PT Serif Regular;
+    font-size: .2em;
+  }
+  .img{
+    padding: 20px;
+    display:inline;
+    border-radius: 50%;
+    width: 20%;
+    height: 15%;
+  }
+  .map{
+    padding: 1px 0 0 0;
+    width: 100%;
+}
+.info{
+  text-align: center;
+  padding-top: 20px;
+  font-size:.875em;
+}
+.basicinfo{
+  background-color:#eeeeee;
+  height:55%;
+}
+.contact{
+  border: 2px solid black;
+  float: left;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  width:60%;
+  background-color: white;
+}
+.address{
+  border: 2px solid black;
+  float: left;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  width:60%;
+  background-color: white;
+}
+.contact-box{
+  width: 60%;
+  margin:0 auto;
+}
+p{
+  text-align: justify;
+  color: black;
+  font: PT Serif Regular;
+  font-size: .1em;
+}
+footer{
+  border: 2px solid teal;
+  color: black;
+  padding:20px;
+  background-color:#00897f;
+  text-align: center;
+  font: PT Sans Narrow Bold;
+  font-size: 0.25em;
+}
+li{
+  font-size: .9em;
+  font: PT Sans Regular;
+  color: darkred;
+  display: inline;
+  padding-right: 11px;
 }
